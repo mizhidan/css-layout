@@ -7,6 +7,42 @@ html {
     line-height: 1.5em;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+header img {
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+
+header h1 {
+    flex: 4;
+    position: relative;
+    float: left;
+    left: calc(40% - 10px);
+}
+
+header nav {
+    flex: 1;
+    margin: 25px 0;
+    position: relative;
+    float: left;
+    right: -120px;
+}
+
+header ul li {
+    display: inline;
+}
+header ul li a {
+    color: white;
+}
+
 ul {
     list-style: none;
     margin: 0;
