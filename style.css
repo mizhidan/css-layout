@@ -1,4 +1,7 @@
-body,
+body {
+    margin: 0 auto;
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -22,18 +25,16 @@ header img {
 }
 
 header h1 {
-    flex: 4;
     position: relative;
     float: left;
     left: calc(40% - 10px);
 }
 
 header nav {
-    flex: 1;
     margin: 25px 0;
     position: relative;
     float: left;
-    right: -120px;
+    left: calc(75% - 40px);
 }
 
 header ul li {
@@ -41,6 +42,30 @@ header ul li {
 }
 header ul li a {
     color: white;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.description h2 {
+    margin: 0;
+    padding: 40px 0 0 0;
+}
+
+.description img {
+    float: left;
+    padding: 20px 20px 20px 10%;
+}
+
+.description-p1 {
+    margin: 0;
+    padding: 20px 10% 0 0;
+}
+
+.description-p2 {
+    padding: 0 10% 40px 10%;
+    clear: both;
 }
 
 ul {
